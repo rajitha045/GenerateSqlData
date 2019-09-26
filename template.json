@@ -1,0 +1,40 @@
+{
+   "Tables" : { 
+    "table0": [
+        {"A": "name","info":{"isKey": true}},
+        {"B": "email","info":{"isKey": true}},
+        {"C": "int"},
+        {"D": "country"},
+        {"E": "float"}
+    ],
+    "table1":[
+        {"B": "email","info":{"isKey": true,"parent":{"table":"table0","attribute":"B"}}},
+        {"F": "email"},
+        {"G": "float"},
+        {"H": "country"}
+    ],
+    "table2":[
+        {"A": "name","info":{"isKey": true,"parent":{"table":"table0","attribute":"A"}}},
+        {"I": "email"},
+        {"J": "int"}
+    ],
+    "table3":[
+        {"K": "credit_card_number","info":{"isKey": true}},
+        {"L": "email"},
+        {"M": "text"},
+        {"N": "email"}
+    ],
+    "table4":[
+        {"O": "credit_card_number","info": {"isKey": true}},
+        {"P": "email"},
+        {"Q": "address"},
+        {"R": "email"}
+    ],
+    "table5":[
+        {"K": "credit_card_number","info" : {"isKey": true,"parent":{"table":"table3","attribute":"K"}}},
+        {"O": "credit_card_number","info": {"isKey": true,"parent":{"table":"table4","attribute":"O"}}},
+        {"S": "address"},
+        {"T": "email"}
+    ]
+}            
+}
