@@ -2,14 +2,14 @@
 This package is to generate mock data based on table definitions.</br>
 preserves referential integrity </br>
 
-- **set-up** </br>
+- **Set-up** </br>
 install python,pip </br>
 pip install faker,pandas </br>
 
-- **run** </br>
-format </br>
+- **Run** </br>
+**format** </br>
 python loadData.py templateJson testCasesCount </br>
-example : </br>
+**example** : </br>
 python loadData.py template.json 100 </br>
 
 - **Schema Definition** </br>
