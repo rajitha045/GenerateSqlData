@@ -6,13 +6,13 @@ preserves referential integrity </br>
 install python,pip </br>
 pip install faker,pandas </br>
 
-**run** </br>
+- **run** </br>
 format </br>
 python loadData.py templateJson testCasesCount </br>
 example : </br>
 python loadData.py template.json 100 </br>
 
-**Schema Definition** </br>
+- **Schema Definition** </br>
 follow the format in template.json </br>
 
 
