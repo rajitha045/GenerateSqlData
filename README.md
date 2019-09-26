@@ -15,4 +15,7 @@ python loadData.py template.json 100 </br>
 - **Schema Definition** </br>
 Follow the format in template.json </br>
 
+- **References** </br>
+https://faker.readthedocs.io/en/latest/providers/faker.providers.python.html
+
 
