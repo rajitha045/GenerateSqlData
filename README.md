@@ -1,16 +1,16 @@
-# MockSqlData
-This package is to generate mock data based on table definitions.
-preserves referential integrity
+# MockSqlData </br>
+This package is to generate mock data based on table definitions.</br>
+preserves referential integrity </br>
 
-#set-up
-install python,pip
-pip install faker,pandas
+#set-up </br>
+install python,pip </br>
+pip install faker,pandas </br>
 
-#Schema Definition 
-follow the format in template.json
+#Schema Definition </br>
+follow the format in template.json </br>
 
-#run 
-format
-python loadData.py templateJson testCasesCount
-example :
-python loadData.py template.json 100
+#run </br>
+format </br>
+python loadData.py templateJson testCasesCount </br>
+example : </br>
+python loadData.py template.json 100 </br>
