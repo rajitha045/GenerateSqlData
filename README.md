@@ -13,6 +13,6 @@ python loadData.py templateJson testCasesCount </br>
 python loadData.py template.json 100 </br>
 
 - **Schema Definition** </br>
-follow the format in template.json </br>
+Follow the format in template.json </br>
 
 
